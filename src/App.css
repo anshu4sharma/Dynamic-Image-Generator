@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.active_class {
+  border-bottom: 2px solid white;
+}
+a:hover {
+    color: red;
+}
+.navbar {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    /* font-family: 'Dongle', sans-serif; */
+    font-family: "Play", sans-serif;
+    font-weight: bold;
+    width: 100vw;
+
+}
+
+a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    margin: 10px;
+}
+
+
+
+
+.search_NFT {
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 300px;
+}
+
+.outsideinput{
+    border-radius: 10px;
+    border: 1px solid ;
+    padding: 2px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+    
+}
+.search_icon{
+    
+    color:#7A7A7A;
+}
+
+
+.outsidebar{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+
+body{
+
+
+    display: flex;
+    justify-content: center;
+}
+.container{
+
+border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+img{
+padding: 10px;
+
+}
+#searchedimg{
+
+    height: 85vh;
+    width: 780px;
+}
+
+#trans{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: #CAD5E2;
+    }
+
+a{
+    display: none;
+}
+
+.search_NFT{
+    height: 20px;
+    width: 200px;
+
+}
+
+#searchedimg{
+
+    width: 100vw;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.container{
+
+    display: flex;
+    align-items: center;
+    height: 60vh;
+
+}
+
+
+
+  }
